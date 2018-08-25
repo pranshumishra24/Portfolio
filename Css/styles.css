@@ -1,0 +1,83 @@
+/* Global 
+=================*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1, h2{
+    font-family: 'caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.content-wrap {
+    width: 950px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.col-narrow{
+    width: 28%;
+    margin-right: 4%;
+    float: left;
+}
+
+.col-wide{
+    width: 68%;
+    float: left;
+}
+
+a{
+    color: floralwhite;
+}
+
+a:checked{
+    color: floralwhite;
+}
+
+/* Header and footer 
+=================*/
+
+header {
+    background: #0A509A;
+    margin: 0;
+    padding: 20px;
+}
+
+footer {
+    
+    background: #0A509A;
+    padding: 10px;
+}
+
+.profile-img{
+    
+    border-radius: 50%;
+}
+
+/* Section 
+=================*/
+
+main {
+    background: #EDEDED;
+    margin: 0;
+    padding: 20px;
+}
