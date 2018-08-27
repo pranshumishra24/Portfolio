@@ -53,6 +53,9 @@ a:checked{
     color: floralwhite;
 }
 
+h4 {
+    margin-top: 0;
+}
 /* Header and footer 
 =================*/
 
@@ -73,6 +76,19 @@ footer {
     border-radius: 50%;
 }
 
+/* navigation
+=================*/
+
+nav{
+    margin-bottom: 16px;
+    text-align: center;
+}
+nav a{
+    margin: 16px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
 /* Section 
 =================*/
 
@@ -81,3 +97,8 @@ main {
     margin: 0;
     padding: 20px;
 }
+
+.job-pos{
+    margin: 0;
+}
+

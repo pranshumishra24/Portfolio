@@ -7,7 +7,14 @@
         <link rel="stylesheet" href="../Css/styles.css">
     </head>
     <body>
-        <header>
+        <header id="about">
+            <nav>
+            <a href="#about">About</a>
+            <a href="#work">Work Experience</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
             <div class="content-wrap">
                 <img class="profile-img col-narrow" src="../img/download.png" alt="Pranshu Mishra">
                 <div class="col-wide">
@@ -20,25 +27,38 @@
         </header>
         <main>
             <div class="content-wrap">
-            <section>
+            <section id="work">
+                <div class="col-narrow">
                 <h2>Work Experience</h2>
                 <!---Job Details--->    
-                <h3>Software Developer Intern</h3>
-                <h4>Aricent</h4>
-                <p>January 2018 - June 2018</p>
+                </div>
+                <div class="col-wide">
+                    <h3 class="job-pos">Software Developer Intern</h3>
+                    <h4>Aricent</h4>
+                    <p>January 2018 - June 2018</p>
+                    
+                
                 <ul>
                     <li>Worked on Embedded Systems under Agile methodology.</li>
                     <li>Developed features for Nokia and and performed unit test for the same.</li>
                 </ul>
+                    </div>
             </section>
-            <section>
+            <section id="education">
+                <div class="col-narrow">
                 <h2>Education</h2>
+                </div>
+                <div class="col-wide">
                 <h3>KIIT University</h3>
                 <p>Bachelor Of Technology in Information
 Technology</p>
+                </div>
             </section>
-            <section>
+            <section id="skills">
+                <div class="col-narrow">
                 <h2>Skills</h2>
+                </div>
+                <div class="col-wide">
                 <ul>
                     <li>C</li>
                     <li>C++</li>
@@ -58,10 +78,11 @@ Technology</p>
                     <li>Git</li>
                     <li>Gerrit</li>
                 </ul>
+                </div>
             </section>
                 </div>
         </main>
-        <footer>
+        <footer id="contact">
             <div class="content-wrap">
             <h2>Let's Keep in Touch</h2>
             <div>
