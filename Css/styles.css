@@ -34,16 +34,6 @@ h2{
     margin: 0 auto;
 }
 
-.col-narrow{
-    width: 28%;
-    margin-right: 4%;
-    float: left;
-}
-
-.col-wide{
-    width: 68%;
-    float: left;
-}
 
 a{
     color: floralwhite;
@@ -56,13 +46,29 @@ a:checked{
 h4 {
     margin-top: 0;
 }
+
+.download{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.btn{
+    text-decoration: none;
+    background: black;
+    padding: 16px;
+    display: inline-block;
+}
 /* Header and footer 
 =================*/
 
 header {
     background: #0A509A;
     margin: 0;
-    padding: 20px;
+    padding: 60px;
+    padding-left: 0;
+    
+    position: relative;
 }
 
 footer {
@@ -71,9 +77,17 @@ footer {
     padding: 10px;
 }
 
+footer a{
+    text-decoration: none;
+}
+
 .profile-img{
-    
     border-radius: 50%;
+}
+
+.contacts a{
+    font-size: 2em;
+    margin: auto 10px;
 }
 
 /* navigation
@@ -82,6 +96,11 @@ footer {
 nav{
     margin-bottom: 16px;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px;
+    background: black;
 }
 nav a{
     margin: 16px;
@@ -102,3 +121,23 @@ main {
     margin: 0;
 }
 
+#work{
+    padding-top: 60px;
+}
+
+/* media query
+=======================*/
+
+@media(min-width:900px){
+    .col-narrow{
+    width: 28%;
+    margin-right: 4%;
+    float: left;
+}
+
+.col-wide{
+    width: 68%;
+    float: left;
+}
+
+}
